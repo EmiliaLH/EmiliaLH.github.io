@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #000;
+}
+
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+
+
+img{
+    width: 50%;
+    height: auto;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+ 
+
+article {
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border: 2px solid #000; 
+    justify-content: center;
+}
+
+#myProgress {
+	width: 100%;
+	background-color: grey;
+}
+ 
+#myJSBar {
+	width: 1%;
+	height: 30px;
+	background-color: green;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+ 
+#myCSSBar {
+	width: 1%;
+	height: 30px;
+	background-color: green;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+ 
+#myHTMLBar {
+	width: 1%;
+	height: 30px;
+	background-color: green;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	
+}
